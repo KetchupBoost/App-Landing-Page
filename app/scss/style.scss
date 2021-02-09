@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	vertical-align: baseline;
+}
+
+/* General and Misc */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+	line-height: 1.5;
+	letter-spacing: 0em;
+	--tw-text-opacity: 1;
+	color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
+/* Header */
+header {
+	background-image: url('/img/bg.svg');
+	background-position: right;
+	height: 100vh;
+	padding: 3.5rem;
+
+	.intro-nav {
+		width: 100%;
+		padding: 1.5rem;
+		
+		.intro-nav__navbar {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.navbar-logo {
+				background: url('/img/logo.jpeg');				
+				height: 200px;
+				width: 200px;
+				color: #7f9cf5;
+				display: flex;
+				align-items: center;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 1.5rem;
+				line-height: 2rem;
+				margin-right: auto;
+
+
+				&:hover {
+					text-decoration: none;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+
+/* About */
+
+.about {
+	width: 100%;
+	
+	.about-title {
+		width: 100%;
+		font-family: "Source Sans Pro", sans-serif;
+		font-size: 48px;
+		font-weight: 700;
+		color: rgb(91, 33, 182);
+		margin-top: 17vh;
+
+		&>h2 {
+			text-align: center;
+		}
+
+	}
+
+	.about__first-content {
+		width: 100%;
+
+	}
+
+	.about__second-content {
+		width: 100%;
+		
+	}
+
+}

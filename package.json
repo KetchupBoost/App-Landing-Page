@@ -1,0 +1,29 @@
+{
+  "name": "saikoopix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KetchupBoost/SaikooPix.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "yago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KetchupBoost/SaikooPix/issues"
+  },
+  "homepage": "https://github.com/KetchupBoost/SaikooPix#readme"
+}
