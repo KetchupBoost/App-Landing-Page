@@ -85,6 +85,27 @@ header {
 
 	.about__first-content {
 		width: 100%;
+		margin-top: 6.5rem;
+
+		.first-content__img {
+			width: 320px;
+			height: 300px;
+			margin-right: auto;
+			margin-left: auto;
+
+			&>img {
+				border-radius: 50%;
+			}
+
+		}
+
+		.first-content__description {
+			padding-top: 50px;
+			padding-bottom: 50px;
+			text-align: center;
+			font-size: 1.25rem;
+			line-height: 2rem;
+		}
 
 	}
 
