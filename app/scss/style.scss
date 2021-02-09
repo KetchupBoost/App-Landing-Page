@@ -88,20 +88,21 @@ header {
 		margin-top: 6.5rem;
 
 		.first-content__img {
-			width: 320px;
-			height: 300px;
 			margin-right: auto;
-			margin-left: auto;
+			margin-left: 12rem;
 
-			&>img {
+			& > img {
 				border-radius: 50%;
+				width: 340px;
+				height: 300px;
 			}
 
 		}
 
 		.first-content__description {
-			padding-top: 50px;
-			padding-bottom: 50px;
+			padding-top: 85px;
+			padding-bottom: 85px;
+			margin-left: 7rem;
 			text-align: center;
 			font-size: 1.25rem;
 			line-height: 2rem;
@@ -111,7 +112,29 @@ header {
 
 	.about__second-content {
 		width: 100%;
+		margin-top: 6.5rem;
 		
+		.second-content__img {
+			margin-right: auto;
+			margin-left: 6rem;
+
+			& > img {
+				border-radius: 50%;
+				width: 340px;
+				height: 300px;
+			}
+
+		}
+
+		.second-content__description {
+			padding-top: 85px;
+			padding-bottom: 85px;
+			margin-left: 1rem;
+			text-align: center;
+			font-size: 1.25rem;
+			line-height: 2rem;
+		}
+
 	}
 
 }
